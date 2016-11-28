@@ -390,6 +390,11 @@ img {
   -ms-interpolation-mode: bicubic;
   display: inline-block;
   vertical-align: middle; }
+  
+.backgroundimage{
+  background-image:url("../images/backimagered.jpg");
+}
+
 
 textarea {
   height: auto;
@@ -411,6 +416,45 @@ select {
 .mqa-display object {
   max-width: none !important; }
 
+.hero {
+  background: url("http://static.pexels.com/wp-content/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+  .hero h1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; }
+  .footer p.slogan {
+    color: #8d9093;
+    font-size: 1.8rem;
+    margin: 0 0 1rem; }
+  .footer p.copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0; }
+  .footer .links a {
+    list-style: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3rem 0 2rem;
+    margin: 0; }
+    .footer .links a::after {
+      content: "•";
+      padding: 0 0.4rem 0 0.8rem; }
+    .footer .links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1274,12 +1318,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2199e8;
+  color: white;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: red; }
   a img {
     border: 0; }
 
@@ -1711,7 +1755,7 @@ label {
   font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.8;
-  color: #0a0a0a; }
+  color: white; }
   label.middle {
     margin: 0 0 1rem;
     padding: 0.5625rem 0; }
@@ -2072,7 +2116,7 @@ select {
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #def0fc; }
+    background-color: #292c2f; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
@@ -2182,6 +2226,8 @@ select {
 
 .menu-text {
   font-weight: bold;
+  color:white !important;
+  border-bottom:1px solid red;
   color: inherit;
   line-height: 1;
   padding-top: 0;
@@ -3328,7 +3374,7 @@ table.hover tbody tr:nth-of-type(even):hover {
     box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
 
 .title-bar {
-  background: #0a0a0a;
+  background: #292c2f;
   color: #fefefe;
   padding: 0.5rem; }
   .title-bar::before, .title-bar::after {
@@ -3436,7 +3482,7 @@ table.hover tbody tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #292c2f; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
